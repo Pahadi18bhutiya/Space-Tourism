@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+body{
+    font-family: 'Roboto', sans-serif !important; 
+}
+.background{
+    background-image:url(
+        assets/destination/background-destination-desktop.jpg
+    );
+    padding: 4% 10%;
+    color: #fff;
+}
+.navbar-expand-lg{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.navbar>.cotainer-fluid{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.ms-auto{
+    margin-left: auto !important;
+}
+.nav-link {
+    color: #f9f9f9 !important;
+    font-size: 23px !important;
+}
+a{
+    margin: 10px 20px;
+}
+.heading{
+    text-align: center !important;
+    padding: 25px;
+}
+.row{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.card{
+    text-align: center !important;
+    background-color: transparent !important;
+}
+.class-img-top{
+    width: 100%;
+}
+.btn{
+    color: #fff !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    font-size: 20px !important;
+}
+.Moon{
+    text-align:center !important;
+}
+.moon-img{
+    width: 17rem !important;
+}
+.about-moon{
+    text-align: left !important;
+    font-family:'Courier New', Courier, monospace;
+    padding: 3% 16% !important;
+}
+.moon-distance{
+    text-align: right;
+    padding: 3%;
+}
+.background-crew{
+    background-image: url(
+        assets/crew/background-crew-desktop.jpg
+    );
+    color: #fff;
+    padding: 4% 10%;
+}
+.testimonial-img{
+    width: 25% !important;
+    height: 20% !important;
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item{
+    text-align: center !important;
+}
+.content{
+    padding: 0%;
+    text-align: left !important;
+    width: 90% !important;
+    font-family: 'Roboto', sans-serif;
+}
+.background-technology{
+    background-image: url(
+        assets/technology/background-technology-desktop.jpg
+    );
+    color: #fff;
+    padding: 4% 10%;
+}
+.capsule-img{
+    width: 30% !important;
+    height: 30% !important;
+}
+.heading-technology{
+    text-align: center !important;
+    font-family: 'Roboto', sans-serif;
+}
